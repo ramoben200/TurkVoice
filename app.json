@@ -1,8 +1,8 @@
 {
-  "name": "Efsane Müzik",
+  "name": "TurkVoice",
   "description": "Telegram'ınızın Grup Sesli Sohbeti'nde şarkı çalmak için Açık Kaynaklı bot. Powered by Mehmetbaba55.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/newname58q/waves",
+  "repository": "https://github.com/herlockexe/TurkVoice",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
