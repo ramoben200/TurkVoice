@@ -34,4 +34,4 @@
 - `/katil` - Müzik asistanı  grubunuza katılır. 
 - `/ayril` - Müzik asistanı grubunuzu terk eder. 
 ### Herokuya Dağıt 🚀</h4>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ramoben200/Ballasplayerbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ramoben200/TurkVoice)
