@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EfsaneMusicVaves"
+        user.first_name = "BallasMusicVaves"
     usar = user
     wew = usar.id
     try:
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Kanal 🔊",
-                        url="https://t.me/Sohbetdestek")
+                        text="sohbet 🔊",
+                        url="https://t.me/Ballasresmi")
                    
                 ]
             ]
