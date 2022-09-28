@@ -7,32 +7,32 @@ from helpers.filters import command, other_filters2
 
 @Client.on_message(command(["start", f"start"]))
 async def start(_, message: Message):
-    await message.reply_photo("https://i.ibb.co/khRz42f/Turkish-Voice.jpg")
+    await message.reply_photo("https://ibb.co/Vp8TtX1/Turkish-Voice.jpg")
     await message.reply_text(
         f"""**Merhaba, {message.from_user.mention} 🎵
-Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Talia Müzik 🎙️](https://t.me/Sohbetdestek).
+Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Ballas Müzik 🎙️](https://t.me/Ballasresmi).
  **""",
 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Grubunuza Ekle ➕", url="https://t.me/Efsanestar_bot?startgroup=true"
+                        "➕ Grubunuza Ekle ➕", url="https://t.me/Ballasresmi_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Efsanestar_bot" 
+                        "🔊 Asistan", url="https://t.me/Ballasplayerasistan_bot" 
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Sohbetskyfall"
+                        "💬 Sohbet", url="https://t.me/Ballasresmi"
                     ),
                     InlineKeyboardButton(
-                        "🙎‍♂️ Geliştirici", url="https://t.me/Mahoaga") 
+                        "🙎‍♂️ Geliştirici", url="https://t.me/BOT_RAMO") 
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧩 Kaynak Kodu", url="https://t.me/Sohbetdestek" 
+                        "🧩 Kaynak Kodu", url="https://t.me/Ballasresmi" 
                     )
                 ]
             ]
@@ -47,7 +47,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "👨‍🔧 Geliştirici", url="https://t.me/Sohbetdestek")
+                         "👨‍🔧 Geliştirici", url="https://t.me/BOT_RAMO")
                  ]
              ]
          )
